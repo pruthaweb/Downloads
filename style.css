@@ -1,0 +1,29 @@
+/* Navbar */
+#navspan{
+   color: black;
+}
+.docsfile{
+   color: black;
+   font-family: cursive;
+}
+.docsfile:hover{
+   color:gray;
+   font-family: cursive;
+}
+.demopg{
+   color: black;
+   font-family: cursive;
+   margin-left:600px;
+
+}
+.demopg:hover{
+   color: gray;
+   font-family: cursive;
+}
+.fa-brands{
+    margin-left: 20px;
+    color: gray;
+}
+#btndownload{
+   margin-left: 30px;
+}

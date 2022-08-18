@@ -1,0 +1,201 @@
+
+.hero-image{
+	background-image: url("img/lake.jpg");
+	overflow: hidden;
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+}
+#cloudflare{
+	margin-top: 150px;
+}
+.nav-link{
+   
+	text-decoration: none;
+	font-size: 20px;
+	font-family: initial;
+	list-style: none;
+	display: flex;
+}
+#text{
+	color: white;
+	margin: 15px;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
+}
+#textt{
+	font-size: 20px;
+	color: white;
+	margin-left: 430px;
+	margin-top: 20px;
+}
+#text1{
+	color: white;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+#btnlet{
+	
+	background-color: black;
+	color: white;
+	margin-left: 20px;
+	border: none;
+	border-radius: 20px;
+	width: 120px;
+}
+#lefttext{
+	font-size: 30px;
+	color: white;
+	margin-top: 100px;
+	margin-left: 200px;
+
+}
+#btnfree{
+	margin-left: 10px;
+	margin-top: 50px;
+	background-color: #ffffff;
+	color: black;
+	border-radius: 20px;
+	border: none;
+	width: 220px;
+	height: 40px;
+}
+hr.solid{
+	border-top: 5px solid #ffffff;
+}
+.force{
+	margin-top: 60px;
+	margin-left: 80px;
+	font-weight: bold;
+
+}
+.force1{
+	margin-left: 80px;
+	margin-top: 20px;
+	color: gray;
+	font-weight: normal;
+}
+.stylelist{
+	margin-left: 100px;
+	margin-top: 20px;
+	color: gray;
+}
+#btnview{
+	margin-left:100px;
+	margin-top: 20px;
+	color: white;
+	background-color: orangered;
+	border: none;
+	width: 25%;
+	border-radius: 20px;
+}
+#dollar{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.title{ 
+	margin-top: 25px;
+}
+.coach{
+	margin-top: 20px;
+}
+#cardimg{
+	height: 330px;
+	width: 40%;
+	box-shadow:  0px 2px 4px 4px gainsboro;
+	border: none;
+	margin-left: 40px;
+}
+#cardimg1{
+	height: 330px;
+	width: 40%;
+	box-shadow:  0px 2px 4px 4px gainsboro;
+	border: none;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+#cardimg2{
+	height: 380px;
+	width: 40%;
+	box-shadow:  0px 2px 4px 4px gainsboro;
+	border: none;
+	margin-left: 40px;
+	margin-top: 60px;
+	background-color: orangered;
+}
+#plann{
+	height: 330px;
+	width: 40%;
+	box-shadow:  0px 2px 4px 4px gainsboro;
+	border: none;
+	margin-left: 40px;
+	margin-top: 100px;
+
+}
+#dollar{
+	color: orangered;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.info{
+	margin-top: 30px;
+	margin-left: 20px;
+	color: gray;
+}
+.coach{
+	margin-top: 35px;
+	margin-left: 20px;
+}
+#arrow{
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.planning{
+	height: 70px;
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.plan{
+	margin-left: 5px;
+	margin-top: 42px;
+}
+.container1{
+	background-color: orangered;
+	height: 900px;
+	width: 100%;
+}
+.teext{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-top: 50px;
+
+}
+#colcard{
+	height: 300px;
+	width: 90%;
+	background-color: orangered;
+	color: white;
+	margin-left: 30px;
+	border: none;
+	margin-top: 40px;
+}
+#colcard1{
+	height:190px;
+	width: 90%;
+	background-color: orangered;
+	color: white;
+	border: none;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+#contain{
+	 height: 700px;
+	 width: 100%;
+	 background-color:gainsboro ;
+}

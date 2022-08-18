@@ -1,0 +1,250 @@
+.navbar{
+	margin-top: 10px;
+}
+.navbar-nav{
+	margin-left: 100px;
+}
+.nav-item{
+	margin-left: 30px;
+	font-size: 20px;
+}
+#imgg{
+	margin-left: 30px;
+}
+#log{
+	margin-right: 40px;
+	font-size: 20px;
+}
+#sign{
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+}
+#sign:hover{
+	background-color:#5138EE;
+	color: #ffffff;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 63.5%;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+.searchtext{
+	width: 0rem;
+	border-radius: 5rem;
+	border: none;
+	outline: none;
+	transition: all 0.2s linear;
+}
+.searchtext:focus{
+	outline: none;
+}
+#Search{
+	margin-top: 30px;
+}
+.searchbtn{
+	width: 5rem;
+	height: 5rem;
+	color: #000000;
+	border-radius: 50%;
+}
+.searchBox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+
+}
+.searchBox:hover > .searchtext{
+	width: 25rem;
+	padding: 1rem;
+	font-size: 15px;
+}
+#textt{
+	width: 100%;
+	height: 700px;
+}
+.imgg{
+	width: 90%;
+	height: 350px;
+	margin-top: 150px;
+}
+.texttt{
+	font-size: 51px;
+	margin-top: 110px;
+	margin-left: 90px;
+
+}
+.per{
+	margin-left: 90px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+/*Clearing Floats*/
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+
+.cf:after{
+    clear:both;
+}
+
+.cf{
+    zoom:1;
+}    
+/* Form wrapper styling */
+
+.search-wrapper {
+    width: 85%;
+    height: 70px;
+    margin-top: 40px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-left: 90px;
+ 
+}
+
+/* Form text input */
+
+.search-wrapper input {
+    font-size: 20px;
+    border: 0; 
+    border-radius: 40px;
+    margin-top: 15px;
+}
+
+.search-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,0.8) inset;
+}
+
+.search-wrapper input::-webkit-input-placeholder {
+  
+   font-weight: normal;
+   font-style: normal;
+  padding-left: 25px;
+}
+
+.search-wrapper input:-moz-placeholder {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.search-wrapper input:-ms-input-placeholder {
+    font-weight: normal;
+    font-style: normal;
+  border-style: none;
+}   
+
+/* Form submit button */
+.search-wrapper button { 
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 50px;
+    width: 35%;
+    margin-top: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #5138EE;
+    border-radius: 10px;
+    margin-left: 130px;
+    font-size: 15px;
+    font-style: normal;  
+}  
+
+.search-wrapper button:active,
+.search-wrapper button:focus{  
+    background: #198cff;
+    outline: 0;  
+}
+
+.search-wrapper button:focus:before,
+.search-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}     
+
+.search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}   
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 40px;
+  margin-left: 90px;
+  font-size: 20px;
+  border-radius: 50px;
+   
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin-top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #5138EE;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container1{
+	width: 100%;
+	height: 500px;
+	background-color: #5138EE;
+}
